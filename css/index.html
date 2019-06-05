@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CSS笔记 | Allen的学习文档</title>
+    <meta name="description" content="努力工作，健康生活">
+    <link rel="icon" href="/myDocs/favicon.ico">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/myDocs/assets/css/0.styles.6b151eab.css" as="style"><link rel="preload" href="/myDocs/assets/js/app.041e771e.js" as="script"><link rel="preload" href="/myDocs/assets/js/2.7fec15a4.js" as="script"><link rel="prefetch" href="/myDocs/assets/js/10.0e9aaa1c.js"><link rel="prefetch" href="/myDocs/assets/js/3.835dda5d.js"><link rel="prefetch" href="/myDocs/assets/js/4.7e1969f5.js"><link rel="prefetch" href="/myDocs/assets/js/5.dde2fc7f.js"><link rel="prefetch" href="/myDocs/assets/js/6.47b2cf28.js"><link rel="prefetch" href="/myDocs/assets/js/7.fa75063f.js"><link rel="prefetch" href="/myDocs/assets/js/8.f9fe4929.js"><link rel="prefetch" href="/myDocs/assets/js/9.9ac6e671.js">
+    <link rel="stylesheet" href="/myDocs/assets/css/0.styles.6b151eab.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/myDocs/" class="home-link router-link-active"><!----> <span class="site-name">Allen的学习文档</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/myDocs/html/" class="nav-link">HTML</a></div><div class="nav-item"><a href="/myDocs/css/" class="nav-link router-link-exact-active router-link-active">CSS</a></div><div class="nav-item"><a href="/myDocs/js/" class="nav-link">JS</a></div><div class="nav-item"><a href="/myDocs/vue/" class="nav-link">VUE</a></div><div class="nav-item"><a href="/myDocs/mobile/" class="nav-link">MOBILE</a></div><div class="nav-item"><a href="/myDocs/ohter/" class="nav-link">OHTER</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/myDocs/html/" class="nav-link">HTML</a></div><div class="nav-item"><a href="/myDocs/css/" class="nav-link router-link-exact-active router-link-active">CSS</a></div><div class="nav-item"><a href="/myDocs/js/" class="nav-link">JS</a></div><div class="nav-item"><a href="/myDocs/vue/" class="nav-link">VUE</a></div><div class="nav-item"><a href="/myDocs/mobile/" class="nav-link">MOBILE</a></div><div class="nav-item"><a href="/myDocs/ohter/" class="nav-link">OHTER</a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>CSS笔记</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/myDocs/css/#css命名规范" class="sidebar-link">CSS命名规范</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myDocs/css/#常见元素命名" class="sidebar-link">常见元素命名</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#页面结构命名" class="sidebar-link">页面结构命名</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#导航命名" class="sidebar-link">导航命名</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#功能命名" class="sidebar-link">功能命名</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#颜色命名" class="sidebar-link">颜色命名</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#字体大小命名" class="sidebar-link">字体大小命名</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#使用对齐目标的英文名命名" class="sidebar-link">使用对齐目标的英文名命名</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#使用“类别-功能”的方式命名，如" class="sidebar-link">使用“类别+功能”的方式命名，如</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#注意事项" class="sidebar-link">注意事项</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#常用css文件含义" class="sidebar-link">常用css文件含义</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#参考文章" class="sidebar-link">参考文章</a></li></ul></li><li><a href="/myDocs/css/#注释的写法" class="sidebar-link">注释的写法</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/myDocs/css/#样式" class="sidebar-link">样式</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myDocs/css/#颜色表示法" class="sidebar-link">颜色表示法</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#样式-2" class="sidebar-link">样式</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#样式类型" class="sidebar-link">样式类型</a></li></ul></li><li><a href="/myDocs/css/#选择器" class="sidebar-link">选择器</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myDocs/css/#作用" class="sidebar-link">作用</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#选择器分类" class="sidebar-link">选择器分类</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#选择器优先级" class="sidebar-link">选择器优先级</a></li></ul></li><li><a href="/myDocs/css/#盒模型" class="sidebar-link">盒模型</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myDocs/css/#什么是盒模型" class="sidebar-link">什么是盒模型</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#margin-外边距" class="sidebar-link">margin  外边距</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#padding-内边距" class="sidebar-link">padding 内边距</a></li></ul></li><li><a href="/myDocs/css/#清除浏览器默认样式（base-css）" class="sidebar-link">清除浏览器默认样式（base.css）</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/myDocs/css/#如何让图片居中？" class="sidebar-link">如何让图片居中？</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/myDocs/css/#浮动" class="sidebar-link">浮动</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myDocs/css/#作用：让元素排在一行" class="sidebar-link">作用：让元素排在一行</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#写法：-float：left-right" class="sidebar-link">写法： float：left/right</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#特点：" class="sidebar-link">特点：</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#浮动三要素：" class="sidebar-link">浮动三要素：</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#清浮动：" class="sidebar-link">清浮动：</a></li></ul></li><li><a href="/myDocs/css/#定位" class="sidebar-link">定位</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myDocs/css/#绝对定位" class="sidebar-link">绝对定位</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#相对定位" class="sidebar-link">相对定位</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#固定定位" class="sidebar-link">固定定位</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#层级关系" class="sidebar-link">层级关系</a></li></ul></li><li><a href="/myDocs/css/#css-bug-合集" class="sidebar-link">CSS BUG 合集</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myDocs/css/#margin塌陷" class="sidebar-link">margin塌陷</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#margin拖拽：" class="sidebar-link">margin拖拽：</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#img底部3px的bug：" class="sidebar-link">img底部3px的bug：</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#a包img的时候有蓝色边框：" class="sidebar-link">a包img的时候有蓝色边框：</a></li></ul></li><li><a href="/myDocs/css/#css兼容性问题" class="sidebar-link">CSS兼容性问题</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myDocs/css/#清浮动" class="sidebar-link">清浮动</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#双边距-ie6" class="sidebar-link">双边距(IE6)</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#行高" class="sidebar-link">行高</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#透明层" class="sidebar-link">透明层</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#margin负值" class="sidebar-link">margin负值</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#图片透明-png-在ie不支持" class="sidebar-link">图片透明(.png)在IE不支持</a></li><li class="sidebar-sub-header"><a href="/myDocs/css/#hack" class="sidebar-link">hack</a></li></ul></li><li><a href="/myDocs/css/#css预处理器" class="sidebar-link">CSS预处理器</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myDocs/css/#less" class="sidebar-link">LESS</a></li></ul></li><li><a href="/myDocs/css/#媒体查询" class="sidebar-link">媒体查询</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myDocs/css/#bootstrap" class="sidebar-link">Bootstrap</a></li></ul></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="css笔记"><a href="#css笔记" aria-hidden="true" class="header-anchor">#</a> CSS笔记</h1> <h2 id="css命名规范"><a href="#css命名规范" aria-hidden="true" class="header-anchor">#</a> CSS命名规范</h2> <h3 id="常见元素命名"><a href="#常见元素命名" aria-hidden="true" class="header-anchor">#</a> 常见元素命名</h3> <pre><code>头：                        header
+内容：                      content
+容器：                      container
+尾：                        footer
+导航：                      nav
+侧栏：                      sidebar
+栏目：                      column
+页面外围控制整体布局宽度：    wrapper
+登录条：                    loginbar
+标志：                      logo
+广告：                      banner
+页面主体：                  main
+热点：                      hot
+新闻：                      news
+下载：                      download
+子导航：                    subnav
+菜单：                      menu
+子菜单：                    submenu
+搜索：                      search
+友情链接：                  friendlink
+页脚：                      footer
+版权：                      copyright
+滚动：                      scroll
+内容：                      content
+标签页：                    tab
+文章列表：                  list
+提示信息：                  msg
+小技巧：                    tips
+栏目标题：                  title
+加入：                      joinus
+指南：                      guide
+服务：                      service
+注册：                      regesiter
+状态：                      status
+投票：                      vote
+合作伙伴：                  partner
+</code></pre> <h3 id="页面结构命名"><a href="#页面结构命名" aria-hidden="true" class="header-anchor">#</a> 页面结构命名</h3> <pre><code>容器：                      container
+页头：                      header
+内容：                      container
+页面主体：                  main
+页尾：                      footer
+导航：                      nav
+侧栏：                      sidbar
+栏目：                      column
+页面外围控制整体宽度：      wrapper
+左中右：                    left/right/center
+条：                        bar
+块：                        block
+</code></pre> <h3 id="导航命名"><a href="#导航命名" aria-hidden="true" class="header-anchor">#</a> 导航命名</h3> <pre><code>导航：                      nav
+主导航：                    mainnav
+子导航：                    subnav
+顶导航：                    topnav
+边导航：                    sidenav
+左导航：                    leftnav
+右导航：                    rightnav
+菜单：                      menu
+子菜单：                    submenu
+标题：                      title
+摘要：                      summary
+</code></pre> <h3 id="功能命名"><a href="#功能命名" aria-hidden="true" class="header-anchor">#</a> 功能命名</h3> <pre><code>标志：                      logo
+广告：                      banner
+登录：                      login
+登录条：                    loginbar
+注册：                      regesiter
+搜索：                      search
+功能区：                    shop
+标题：                      title
+加入：                      joinus
+状态：                      status
+按钮：                      btn
+滚动：                      scroll
+标签页：                    tab
+文章列表：                  list
+提示信息：                  msg
+当前的：                    current
+小技巧：                    tips
+图标：                      icon
+注释：                      note
+指南：                      guide
+服务：                      service
+热点：                      hot
+新闻：                      news
+下载：                      download
+投票：                      vote
+合作伙伴：                  partner
+友情链接：                  friendlink
+版权：                      copyright
+</code></pre> <h3 id="颜色命名"><a href="#颜色命名" aria-hidden="true" class="header-anchor">#</a> 颜色命名</h3> <p>使用颜色的名称或16进制代码，如</p> <pre><code>.red { color: red; }
+.f60 { color: #f60; }
+.ff8600 { color: #ff8600; }
+</code></pre> <p><a href="http://tool.oschina.net/commons?type=3" target="_blank" rel="noopener noreferrer">RGB颜色对照表<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h3 id="字体大小命名"><a href="#字体大小命名" aria-hidden="true" class="header-anchor">#</a> 字体大小命名</h3> <p>直接使用&quot;font+字体大小&quot;作为名称,如</p> <pre><code>.font12px {
+    font-size: 12px;
+}
+
+.font9pt {
+    font-size: 9pt;
+}
+</code></pre> <h3 id="使用对齐目标的英文名命名"><a href="#使用对齐目标的英文名命名" aria-hidden="true" class="header-anchor">#</a> 使用对齐目标的英文名命名</h3> <pre><code>.left {
+    float: left;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+</code></pre> <h3 id="使用“类别-功能”的方式命名，如"><a href="#使用“类别-功能”的方式命名，如" aria-hidden="true" class="header-anchor">#</a> 使用“类别+功能”的方式命名，如</h3> <pre><code>.barnews {}
+.barproduct {}
+</code></pre> <h3 id="注意事项"><a href="#注意事项" aria-hidden="true" class="header-anchor">#</a> 注意事项</h3> <ol><li>一律小写</li> <li>尽量用英文</li> <li>不加中杠和下划线</li> <li>尽量不缩写，除非一看就明白的单词</li></ol> <h3 id="常用css文件含义"><a href="#常用css文件含义" aria-hidden="true" class="header-anchor">#</a> 常用css文件含义</h3> <pre><code>主要的      master.css
+模块        module.css
+基本公用    common.css/base.css
+布局/版面   layout.css
+主题        themes.css
+专栏        columns.css
+文字        font.css
+表单        forms.css
+补丁        mend.css
+打印        print.css
+</code></pre> <h3 id="参考文章"><a href="#参考文章" aria-hidden="true" class="header-anchor">#</a> 参考文章</h3> <p><a href="https://www.zhihu.com/question/19586885" target="_blank" rel="noopener noreferrer">如何规范 CSS 的命名和书写？<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h2 id="注释的写法"><a href="#注释的写法" aria-hidden="true" class="header-anchor">#</a> 注释的写法</h2> <pre><code>/* Footer */
+
+内容区
+
+/* EndFooter */
+</code></pre> <h2 id="样式"><a href="#样式" aria-hidden="true" class="header-anchor">#</a> 样式</h2> <h3 id="颜色表示法"><a href="#颜色表示法" aria-hidden="true" class="header-anchor">#</a> 颜色表示法</h3> <ul><li><p>英文表示法：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>red, blue, green, yellow, black, pink
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p>rgb表示法：</p> <p>光的三原色(red, green, blue)</p> <pre><code>  color: rgb(1,0,68)
+  color: rgba(1, 0, 68, .5)
+  范围：0-255(黑→白)
+</code></pre></li> <li><p>十六进制表示法：</p> <pre><code>  color:#010044;
+</code></pre> <p>简写</p> <pre><code>  #cccccc → #ccc
+  #ffffff → #fff	
+  #11aa33 → #1a3
+</code></pre> <p>范围： 0-9 	a-f</p></li></ul> <h3 id="样式-2"><a href="#样式-2" aria-hidden="true" class="header-anchor">#</a> 样式</h3> <pre><code>color               字体颜色
+text-align          对齐方式
+line-height         行高
+font                字体
+text-decoration     划线
+text-indent         缩进
+border              边框
+background          背景
+ws; of; tof         溢出隐藏、单行文本不换行
+opacity             透明度
+cursor              鼠标指针形状
+</code></pre> <h4 id="text-align"><a href="#text-align" aria-hidden="true" class="header-anchor">#</a> text-align</h4> <p>文本水平对齐方向：left/center/right</p> <h4 id="line-height"><a href="#line-height" aria-hidden="true" class="header-anchor">#</a> line-height</h4> <p>行高(对于单行文本，行高和高度一致时，能够实现垂直居中);</p> <h4 id="font"><a href="#font" aria-hidden="true" class="header-anchor">#</a> font</h4> <ul><li><p>合写：font: italic bold 40px Microsoft YaHei;</p> <p><strong>区分顺序，至少要有字体大小和字体系列, 且字体大小在前，字体系列在后；其余样式在这两个样式之前生效，其余样式不区分顺序</strong></p></li> <li><p>分写：</p> <p>font-size</p> <blockquote><p>字体大小要用偶数，浏览器默认字体大小是16px(12px)</p></blockquote> <p>font-family</p> <blockquote><p>Microsoft YaHei(微软雅黑) SimSun(宋体)	默认字体 SimHei(黑体)</p></blockquote> <p>font-style</p> <blockquote><p>italic 倾斜 normal 默认</p></blockquote> <p>font-weight</p> <blockquote><p>font-weight: bold;  /  font-weight: (700);</p></blockquote> <div class="tip custom-block"><p class="custom-block-title">TIP</p> <p>文本样式都能继承，如果自己有样式，则不继承父级样式。</p></div></li></ul> <h4 id="text-decoration"><a href="#text-decoration" aria-hidden="true" class="header-anchor">#</a> text-decoration</h4> <pre><code>overline	上划线
+line-through	中划线/删除线
+underline	下划线(a标签的默认属性)
+none		无(除a之外所有标签的默认样式)
+</code></pre> <h4 id="text-indent"><a href="#text-indent" aria-hidden="true" class="header-anchor">#</a> text-indent</h4> <pre><code>text-indent: 2rem;
+
+计数单位：
+        em(相对单位，em是指一个汉字的实际大小，字体大小是可以通font-size设置。)
+	px(绝对单位，不受任何因素影响)
+</code></pre> <h4 id="border"><a href="#border" aria-hidden="true" class="header-anchor">#</a> border</h4> <ul><li><p>合写：</p> <p>border: width style color</p> <p>border: 5px solid/dotted(点划线)/dashed(虚线) black/rgb(0, 0, 0)/#000</p></li> <li><p>分写：</p> <p>border-width    宽度</p> <p>border-style    线性    <strong>不能省略</strong></p> <p>border-color    颜色</p></li> <li><p>border的四个方向：</p> <p>top/bottom/left/right</p></li></ul> <h4 id="background"><a href="#background" aria-hidden="true" class="header-anchor">#</a> background</h4> <ul><li><p>合写：</p> <p>background:url(img/123.jpg) no-repeat 100px 50px pink;</p> <p>不区分顺序</p></li> <li><p>分写：</p> <p>background-color:red;   背景色</p> <p>background-image:url(图片路径); 背景图</p> <p>background-repeat：repeat(默认)/no-repeat   背景重复</p> <p>background-position：<strong>第一个值是x轴，第二值是y轴</strong></p> <blockquote><p>像素表示法 Xpx, Ypx</p></blockquote> <blockquote><p>百分比表示法 X%, Y%</p></blockquote> <blockquote><p>英文表示法 left/right/top/bottom/center  <strong>一般都写两个值，如果只写一个值，第二个值默认居中。</strong></p></blockquote> <blockquote><p>混合表示法</p></blockquote></li></ul> <h4 id="溢出隐藏"><a href="#溢出隐藏" aria-hidden="true" class="header-anchor">#</a> 溢出隐藏</h4> <p>单行文本不换行</p> <pre><code>white-space: nowrap;        不换行
+overflow: hidden;           隐藏
+text-overflow: ellipsis     省略号
+</code></pre> <h4 id="透明度"><a href="#透明度" aria-hidden="true" class="header-anchor">#</a> 透明度</h4> <pre><code>opacity: 0 - 1;         数值越大，透明度越低
+
+filter: alpha(opacity = 0 - 100);   兼容IE的写法
+</code></pre> <h4 id="鼠标指针"><a href="#鼠标指针" aria-hidden="true" class="header-anchor">#</a> 鼠标指针</h4> <pre><code>cusor: pointer      手型
+</code></pre> <h3 id="样式类型"><a href="#样式类型" aria-hidden="true" class="header-anchor">#</a> 样式类型</h3> <ol><li>行间样式</li> <li>内联样式</li> <li>外联样式</li></ol> <h2 id="选择器"><a href="#选择器" aria-hidden="true" class="header-anchor">#</a> 选择器</h2> <p>更为方便的为标签添加样式</p> <h3 id="作用"><a href="#作用" aria-hidden="true" class="header-anchor">#</a> 作用</h3> <p>可以实现html标签与css样式分离</p> <pre><code>*	    通配符(代指所有的标签)
+h1          标签选择器(多个标签要用逗号分开)
+.class	    类选择器(最常用)
+#id	    id选择器(在同一个页面中只能出现一次，多用在js中)
+</code></pre> <h3 id="选择器分类"><a href="#选择器分类" aria-hidden="true" class="header-anchor">#</a> 选择器分类</h3> <ol><li><p>基本选择器：*(通配符)、div(标签选择器)、.class(类选择器)、#id(id选择器);</p></li> <li><p>群组选择器：逗号隔开写多个</p> <pre><code> div, p, b, span, a { color: red; };
+ .box, .txt, .nav { color: red; };
+</code></pre> <p><strong>选择对象：</strong> 一组元素（标签）（当多个class样式相同时，就给这些标签起一个相同的class名）</p></li> <li><p>嵌套选择器：</p> <pre><code> div p{color:red;}
+</code></pre> <p><strong>选择对象：</strong> 后代元素（子集元素）</p></li> <li><p>筛选选择器</p> <p>标签名.类名 {样式}</p> <pre><code> div.box { background: red; }        类名为box的div的背景色变红
+ div.boxs { border: 5px solid #000; }类名为boxs的div有5px黑色实线的边框
+</code></pre> <p><strong>选择对象：</strong> 元素本身</p></li> <li><p>伪类选择器：（常用于a标签）</p> <pre><code> a:link { color: red; }          访问前
+ a:hover { color: yellow; }      悬停时
+ a:active { color: pink; }       点击时
+ a:visited { color: green; }     访问后
+</code></pre></li></ol> <h3 id="选择器优先级"><a href="#选择器优先级" aria-hidden="true" class="header-anchor">#</a> 选择器优先级</h3> <ul><li>#id &gt; .class &gt; 标签选择器 &gt; *； 行间样式优先级最高，通配符优先级最低。</li> <li>多个选择器作用同一个标签时，如果样式不同，就可以生效；如果样式相同，听优先级高的；优先级相同，后面的覆盖前面的。</li> <li>优先级越高，代表的范围越小</li></ul> <h4 id="优先级的计算"><a href="#优先级的计算" aria-hidden="true" class="header-anchor">#</a> 优先级的计算</h4> <pre><code>                    style       id      class       标签        总和
+                    千          百          十          个
+.box .box1                                  20                  20
+div  .box1                                  10          1       11  		
+
+div   .box1                                 10          1       11
+.box  p                                     10          1       11
+
+div  .box1                                  10          1       11		
+div   p                                                 2       2	
+
+#box  div                       100                     1       101
+div   .con                                  10          1       11
+
+.tit #con span                  100         10          1       111
+.first #con .inner              100         20                  120
+
+.box p b                                    10          2       12
+div p b                                                 3       3
+</code></pre> <h2 id="盒模型"><a href="#盒模型" aria-hidden="true" class="header-anchor">#</a> 盒模型</h2> <h3 id="什么是盒模型"><a href="#什么是盒模型" aria-hidden="true" class="header-anchor">#</a> 什么是盒模型</h3> <p>本质上是一个盒子，用于封装周围的HTML元素，它包括：边距margin, 边框border, 填充padding(内边距) 和实际内容content。</p> <p><strong>标准W3C盒模型</strong></p> <p>width部分只包含content，不包含其他部分。
+<img src="/myDocs/assets/img/modelOne.9f7a9099.jpeg" alt="标准盒模型"></p> <p><strong>IE盒模型</strong></p> <p>width包含了content、padding、border。
+<img src="/myDocs/assets/img/modelTwo.181911ba.jpeg" alt="IE盒模型"></p> <h3 id="margin-外边距"><a href="#margin-外边距" aria-hidden="true" class="header-anchor">#</a> margin  外边距</h3> <p>作用：设置两个盒子的间距(一个盒子到另一个盒子的距离)</p> <pre><code>如何让div水平方向居中： margin:0 auto;
+
+margin:20px;                    上，下，左，右
+margin:20px 50px;               上下，左右
+margin:20px 50px 30px;	        上，左右，下
+margin:20px 40px 50px 60px;     上，右，下，左
+
+margin-top:10px;	上外边距是10像素
+margin-bottom:10px;
+margin-left:10px;
+margin-right:10px;
+</code></pre> <h3 id="padding-内边距"><a href="#padding-内边距" aria-hidden="true" class="header-anchor">#</a> padding 内边距</h3> <pre><code>padding
+padding:20px;	                上，下，左，右
+padding:20px 50px;              上下，左右
+padding:20px 50px 30px;	        上，左右，下
+padding:20px 40px 50px 60px;	上，右，下，左
+
+padding-top:10px;	上内边距是10像素
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+</code></pre> <h2 id="清除浏览器默认样式（base-css）"><a href="#清除浏览器默认样式（base-css）" aria-hidden="true" class="header-anchor">#</a> 清除浏览器默认样式（base.css）</h2> <pre><code>* {
+    margin:0;
+    padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight:normal;
+    font-size:16px;
+}
+a {
+    color:#000;
+    text-decoration:none;
+}
+p {
+    line-height:100%;
+}
+b, strong {
+    font-weight:normal;
+}
+i, em {
+    font-style:normal;
+}
+li {
+    list-style:none;
+}
+input{
+    border:none;
+    padding:0;
+    outline:none;
+    background:none;
+}
+outline:none;
+textarea{
+    resize:none;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:fr;
+}
+.clearfix:after {
+    display:block;
+    content:'';
+    clear:both;
+}
+.clearfix {
+    zoom:1;
+}
+</code></pre> <h2 id="如何让图片居中？"><a href="#如何让图片居中？" aria-hidden="true" class="header-anchor">#</a> 如何让图片居中？</h2> <pre><code>给图片父级加上 text-align: center;
+</code></pre> <h2 id="浮动"><a href="#浮动" aria-hidden="true" class="header-anchor">#</a> 浮动</h2> <h3 id="作用：让元素排在一行"><a href="#作用：让元素排在一行" aria-hidden="true" class="header-anchor">#</a> 作用：让元素排在一行</h3> <h3 id="写法：-float：left-right"><a href="#写法：-float：left-right" aria-hidden="true" class="header-anchor">#</a> 写法： float：left/right</h3> <h3 id="特点："><a href="#特点：" aria-hidden="true" class="header-anchor">#</a> 特点：</h3> <ol><li>半脱离文档流</li> <li>文本环绕</li> <li>顶对齐</li> <li>改变元素类型，使元素支持宽高</li></ol> <div class="tip custom-block"><p class="custom-block-title">TIP</p> <ol><li>如果父级宽度不够，子级会自动折行。</li> <li>宽度靠内容撑开(前提是没有设置宽度)</li></ol></div> <h3 id="浮动三要素："><a href="#浮动三要素：" aria-hidden="true" class="header-anchor">#</a> 浮动三要素：</h3> <ol><li>同级元素一个浮动，其他的都要浮动</li> <li>子级浮动，父级要清浮动</li> <li>浮动元素能设置宽高尽量设置宽高</li></ol> <h3 id="清浮动："><a href="#清浮动：" aria-hidden="true" class="header-anchor">#</a> 清浮动：</h3> <p><strong>父级不设置宽高的情况下，如果不清浮动，父级则不会撑开</strong></p> <ol><li><p>overflow:hidden;	溢出隐藏</p></li> <li><p>给浮动元素下面加一个：</p> <pre><code> &lt;br style=&quot;clear:both;&quot; /&gt;
+</code></pre></li> <li><p>常写成固定类名，方便调用</p> <pre><code> .clearfix:after {
+     display:block;
+     content:'';
+     clear:both;
+ }
+ .clearfix {
+     zoom:1;
+ } 
+ zoom专属ie6，最常用，兼容ie6，可以触发ie的haslayout；
+</code></pre></li></ol> <h2 id="定位"><a href="#定位" aria-hidden="true" class="header-anchor">#</a> 定位</h2> <p>什么是定位？</p> <p>可以随意改变元素的位置</p> <h3 id="绝对定位"><a href="#绝对定位" aria-hidden="true" class="header-anchor">#</a> 绝对定位</h3> <p><strong>position: absolute;</strong>（一般要写方向，来控制位置）</p> <p><strong>特点：</strong></p> <ol><li>完全脱离文档流</li> <li>改变元素类型，使元素支持宽高</li> <li>参照物：父级没有定位，参照物是body；父级有定位，参照物是定位父级</li></ol> <h3 id="相对定位"><a href="#相对定位" aria-hidden="true" class="header-anchor">#</a> 相对定位</h3> <p><strong>position: relative;</strong></p> <p><strong>特点：</strong></p> <ol><li>不脱离文档流</li> <li>参照物：自己</li></ol> <p>**作用：**给定位元素当爹用</p> <div class="tip custom-block"><p class="custom-block-title">TIP</p> <p>如何让一个一直宽高的元素垂直水平居中？</p> <pre><code>position: absolute;
+top: 50%;
+left: 50%;
+margin-top: height/2;
+margin-left: width/2;
+</code></pre></div> <h3 id="固定定位"><a href="#固定定位" aria-hidden="true" class="header-anchor">#</a> 固定定位</h3> <p><strong>position: fixed;</strong></p> <p><strong>特点：</strong></p> <ol><li>完全脱离文档流</li> <li>改变元素类型，使元素支持宽高</li> <li>参照物：屏幕可视区</li></ol> <h3 id="层级关系"><a href="#层级关系" aria-hidden="true" class="header-anchor">#</a> 层级关系</h3> <p><strong>注意：</strong>
+只要有定位，就有层级关系</p> <p><strong>层级高低：</strong>
+普通元素 &lt; 浮动元素 &lt; 定位元素</p> <p>同级元素，若想让一个元素的层级高于其他元素，给这个元素加z-index</p> <h2 id="css-bug-合集"><a href="#css-bug-合集" aria-hidden="true" class="header-anchor">#</a> CSS BUG 合集</h2> <h3 id="margin塌陷"><a href="#margin塌陷" aria-hidden="true" class="header-anchor">#</a> margin塌陷</h3> <p>两个div上下相接，margin-bottom和margin-top取大的值</p> <p>解决方法： 只写一个值</p> <h3 id="margin拖拽："><a href="#margin拖拽：" aria-hidden="true" class="header-anchor">#</a> margin拖拽：</h3> <p>父元素的盒子包含一个子元素盒子，给子元素盒子一个垂直外边距margin-top,父元素盒子也会往下走margin-top的值，而子元素和父元素的边距则没有发生变化。</p> <p><img src="data:image/jpeg;base64,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" alt="margin拖拽"></p> <p>解决办法：</p> <ol><li>修改父元素的高度，增加padding-top样式模拟（padding-top：1px；常用）</li> <li>为父元素添加overflow：hidden；样式即可（完美）</li> <li>为父元素或者子元素声明浮动（float：left；可用）</li> <li>为父元素添加border（border:1px solid transparent可用）</li> <li>为父元素或者子元素声明绝对定位</li></ol> <h3 id="img底部3px的bug："><a href="#img底部3px的bug：" aria-hidden="true" class="header-anchor">#</a> img底部3px的bug：</h3> <pre><code>解决：
+    img {
+        vertical-align:top;
+    }
+    img {
+        display:block;
+    }
+</code></pre> <h3 id="a包img的时候有蓝色边框："><a href="#a包img的时候有蓝色边框：" aria-hidden="true" class="header-anchor">#</a> a包img的时候有蓝色边框：</h3> <pre><code>解决：
+    a img {
+        border:0;
+    }
+</code></pre> <h2 id="css兼容性问题"><a href="#css兼容性问题" aria-hidden="true" class="header-anchor">#</a> CSS兼容性问题</h2> <h3 id="清浮动"><a href="#清浮动" aria-hidden="true" class="header-anchor">#</a> 清浮动</h3> <pre><code>.clearfix:after {
+    display:block;
+    content:'';
+    clear:both;
+}
+.clearfix {
+    zoom:1;
+}                   （兼容ie6）
+</code></pre> <h3 id="双边距-ie6"><a href="#双边距-ie6" aria-hidden="true" class="header-anchor">#</a> 双边距(IE6)</h3> <p>浮动元素与margin方向一致时发生</p> <p>决解方法：
+给浮动元素加display:inline;</p> <h3 id="行高"><a href="#行高" aria-hidden="true" class="header-anchor">#</a> 行高</h3> <p>每一个元素都有默认的行高</p> <p>解决：lin-height:100%;</p> <h3 id="透明层"><a href="#透明层" aria-hidden="true" class="header-anchor">#</a> 透明层</h3> <pre><code>opacity:0-1;
+filter:alpha(opacity=0-100);	兼容ie6
+</code></pre> <h3 id="margin负值"><a href="#margin负值" aria-hidden="true" class="header-anchor">#</a> margin负值</h3> <p>改变元素位置在父级外，IE不支持</p> <p>解决：
+给自己加position:relative;</p> <h3 id="图片透明-png-在ie不支持"><a href="#图片透明-png-在ie不支持" aria-hidden="true" class="header-anchor">#</a> 图片透明(.png)在IE不支持</h3> <pre><code>&lt;script src=&quot;js/DD_belatedPNG.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+    DD_belatedPNG.fix('*');
+&lt;/script&gt;
+</code></pre> <h3 id="hack"><a href="#hack" aria-hidden="true" class="header-anchor">#</a> hack</h3> <pre><code>_background:blue;	兼容ie6
+*background:blue;	兼容ie6，ie7
+</code></pre> <h2 id="css预处理器"><a href="#css预处理器" aria-hidden="true" class="header-anchor">#</a> CSS预处理器</h2> <p>一种写css的方法</p> <h3 id="less"><a href="#less" aria-hidden="true" class="header-anchor">#</a> LESS</h3> <ol><li><p>可嵌套：</p> <pre><code> .box{
+     width:400px; 
+     height:400px; 
+     background:#ccc;
+
+     .box2{
+         width:200px; 
+         height:200px; 
+         background:#666;
+     }
+ }
+</code></pre></li> <li><p>可定义变量：</p> <pre><code> @width:150px;
+ @height:150px;
+ @background:pink;
+</code></pre></li> <li><p>可运算：</p> <pre><code> @background:#333;
+ background:@background*3;
+</code></pre></li></ol> <h2 id="媒体查询"><a href="#媒体查询" aria-hidden="true" class="header-anchor">#</a> 媒体查询</h2> <p>根据不同的设备的宽(分辨率)对应不同的css样式</p> <p>max-width	最大宽</p> <p>min-width	最小宽</p> <pre><code>@media screen and (min-width:100px){
+    body{background:pink;}	
+}
+
+@media screen and (max-width:200px){
+    body{background:pink;}	
+}
+
+@media screen and (max-width:900px) and (min-width:800px){
+    body{background:pink;}	
+}
+</code></pre> <h3 id="bootstrap"><a href="#bootstrap" aria-hidden="true" class="header-anchor">#</a> Bootstrap</h3> <h4 id="meta标签"><a href="#meta标签" aria-hidden="true" class="header-anchor">#</a> meta标签</h4> <pre><code>&lt;meta charset=&quot;utf-8&quot;&gt;	    编码
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;   支持IE,如果支持Google Chrome Frame：GCF，则使用GCF渲染；如果系统安装ie8或以上版本，则使用最高版本ie渲染
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;    写移动端必加
+
+viewport                视口
+width=device-width      设备宽
+initial-scale=1         不需要用户改变比例
+</code></pre> <h4 id="布局容器"><a href="#布局容器" aria-hidden="true" class="header-anchor">#</a> 布局容器</h4> <p>container</p> <p>container-fluid</p> <p>说明：
+container-fluid的width是100％，而container的width是用媒体查询获得的动态尺寸。两者样式肯定是不一样的。并且由于padding的原因两者不可用嵌套，他们就是提供两种视觉风格。</p> <h4 id="栅格系统-重点"><a href="#栅格系统-重点" aria-hidden="true" class="header-anchor">#</a> 栅格系统(重点)</h4> <pre><code>.col-xs-	超小屏幕 手机 (&lt;768px)
+.col-sm-	小屏幕 平板 (≥768px)
+.col-md-	中等屏幕 桌面显示器 (≥992px) *一般分12个
+.col-lg-	大屏幕 大桌面显示器 (≥1200px)
+
+
+***bootstrap有很多写好的样式，只需要大家找到相应样式的class名，然后相应的标签起这个名字就OK。
+</code></pre> <p><a href="http://www.runoob.com" target="_blank" rel="noopener noreferrer">bootstrap菜鸟网<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><a href="http://developer.mozilla.org" target="_blank" rel="noopener noreferrer">媒体查询<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <div class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">11/7/2018, 11:05:44 AM</span></div></div> <!----> </div> <!----></div></div>
+    <script src="/myDocs/assets/js/2.7fec15a4.js" defer></script><script src="/myDocs/assets/js/app.041e771e.js" defer></script>
+  </body>
+</html>
